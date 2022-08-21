@@ -1,6 +1,6 @@
 Hi there 👋
 
-🔭 I am PhD in Economics at HSE, I do AI projects in retention and RecSys at Sber. Check out my LinkedIn profile for more: elena-s-44287697.
+🔭 I am PhD in Economics (HSE), I do AI projects in retention and RecSys at Sber. Check out my LinkedIn profile for more: elena-s-44287697.
 
 💬 Ask me about consumer behavior data & Economic Analysis of Law. I'd like to talk about it :)
 
