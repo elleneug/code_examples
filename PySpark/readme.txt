@@ -1,11 +1,9 @@
---example--
-
 Hi there 👋
 
-🔭 I do computer vision for medical imaging and currently finishing PhD at Skoltech. Check out my website and LinkedIn profile for more.
+🔭 I have finished my PhD in Economics at HSE, I do AI projects in retention and RecSys at Sber. Check out my LinkedIn profile for more: elena-s-44287697.
 
-💬 Ask me about brain MRI data. I'd like to talk about ^^
+💬 Ask me about consumer behavior data & Economic Analysis of Law. I'd like to talk about it :)
 
-👯 I'm looking to collaborate on projects involving domain adaptation for medical imaging and interpratable models. Check out my arxiv for our lastest work on medical segmentation and MRI data preprocessing.
+👯 I'm looking to collaborate on projects involving business analytics, consumer behavior and market analysis and interpratable models.
 
-📫 How to reach me: email kondratevakate at gmail.com is fine, for quick reply write in telegram @katushka2ushka
+📫 How to reach me: email elleneug at gmail.com is fine, for quick reply write in telegram @elleneug
