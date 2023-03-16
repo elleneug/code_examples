@@ -9,4 +9,6 @@
 
 Проекты на Spark (PySpark)
 
-
+## 3. Дашборды
+Пример дашборда:
+http://redash.public.karpov.courses/public/dashboards/yKd0cGc3FBAG35BhucJiMfSLwFXooQkextbiEu8Y?org_slug=default 
