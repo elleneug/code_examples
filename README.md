@@ -12,5 +12,5 @@
 ## 3. Дашборды
 [Примеры]
 
-Дашборд для анализа ключевых метрик службы доставки:
-[http://redash.public.karpov.courses/public/dashboards/yKd0cGc3FBAG35BhucJiMfSLwFXooQkextbiEu8Y?org_slug=default ](https://clck.ru/33sVoQ)
+
+[Дашборд для анализа ключевых метрик службы доставки](https://clck.ru/33sVoQ)
