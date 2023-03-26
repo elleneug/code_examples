@@ -12,3 +12,6 @@
 ## 3. Дашборды
 
 [Дашборд для анализа ключевых метрик службы доставки](http://redash.public.karpov.courses/public/dashboards/yKd0cGc3FBAG35BhucJiMfSLwFXooQkextbiEu8Y?org_slug=default)
+
+[Дашборд с продуктовыми метриками](http://redash.public.karpov.courses/public/dashboards/EQMwCakT8EhEm26MHIgJh9kChNQlR3rie4hDPVIT?org_slug=default)
+
