@@ -10,7 +10,7 @@
 Проекты на Spark (PySpark)
 
 ## 3. Дашборды
-Примеры
+[Примеры]
 
 Дашборд для анализа ключевых метрик службы доставки:
 http://redash.public.karpov.courses/public/dashboards/yKd0cGc3FBAG35BhucJiMfSLwFXooQkextbiEu8Y?org_slug=default 
