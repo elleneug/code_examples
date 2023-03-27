@@ -10,7 +10,7 @@ Hi there 👋
 
 Here you'll find some examples of my projects that are sharable.
 
-### 0 Fundametals
+### 0. Fundametals
 Basic useful functions and tasks
 
 ### 1. Python
