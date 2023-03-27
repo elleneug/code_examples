@@ -1,15 +1,28 @@
-# Типы проектов
+Hi there 👋
 
-## 1. Python
+🔭 I am PhD in Economics (HSE), I do AI projects. Check out my (LinkedIn profile) [https://www.linkedin.com/in/elleneug/] for more.
 
-Примеры проектов с использованием методов статистики и анализа данных для A/B тестирования, ML моделей
+💬 Ask me about Digital Transfromation, ML, Analytics, and RecSys. I'd like to talk about it :)
+
+👯 I'm looking to collaborate on projects involving digital strategy, business analytics, consumer behavior and market analysis and interpratable models.
+
+📫 How to reach me: email elleneug at gmail.com is fine, for quick reply write in telegram @elleneug
+
+Here you'll find some examples of my projects that are sharable.
+
+###0 Fundametals
+Basic useful functions and tasks
+
+### 1. Python
+
+Data analysis, A/B tests and ML-models.
 
 
-## 2. Spark
+### 2. Spark
 
-Проекты на Spark (PySpark)
+PySpark projects.
 
-## 3. Дашборды / Dashboards
+### 3. Дашборды / Dashboards
 
 [Дашборд для анализа ключевых метрик службы доставки / Dashboards with key delievry service metrics](http://redash.public.karpov.courses/public/dashboards/yKd0cGc3FBAG35BhucJiMfSLwFXooQkextbiEu8Y?org_slug=default)
 
