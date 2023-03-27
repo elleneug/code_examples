@@ -1,6 +1,6 @@
 Hi there 👋
 
-🔭 I am PhD in Economics (HSE), I do AI projects. Check out my (LinkedIn profile) [https://www.linkedin.com/in/elleneug/] for more.
+🔭 I am PhD in Economics (HSE), I do AI projects. Check out my [LinkedIn profile](https://www.linkedin.com/in/elleneug/) for more.
 
 💬 Ask me about Digital Transfromation, ML, Analytics, and RecSys. I'd like to talk about it :)
 
