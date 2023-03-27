@@ -15,3 +15,4 @@
 
 [Дашборд с маркетинговыми метриками / Dashboard with marketing metrics](http://redash.public.karpov.courses/public/dashboards/EQMwCakT8EhEm26MHIgJh9kChNQlR3rie4hDPVIT?org_slug=default)
 
+[Дашборд с продуктовыми метриками / Dashboard with product metrics](http://redash.public.karpov.courses/public/dashboards/hQLfyffZcDMyC749IcpuAQW9DcMmvrhAAoDNls0B?org_slug=default)
