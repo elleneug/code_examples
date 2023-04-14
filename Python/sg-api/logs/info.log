@@ -1,0 +1,1717 @@
+2023-04-10 12:45:13,497 - kedro.ipython - INFO - Kedro project sg_api
+2023-04-10 12:45:13,505 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-04-10 12:45:30,635 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:22: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion(duck_array_module.__version__)
+
+2023-04-10 12:45:48,575 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:37: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion("0.0.0")
+
+2023-04-10 12:45:48,587 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-10 12:45:48,629 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/npcompat.py:82: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(np.__version__) >= "1.20.0":
+
+2023-04-10 12:45:48,782 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pdcompat.py:45: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(pd.__version__) < "0.25.0":
+
+2023-04-10 12:45:50,713 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-10 12:45:58,018 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/plotly/graph_objects/__init__.py:288: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(ipywidgets.__version__) >= LooseVersion("7.0.0"):
+
+2023-04-10 12:45:58,157 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2023-04-10 13:10:23,109 - kedro.ipython - INFO - Kedro project sg_api
+2023-04-10 13:10:23,137 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-04-10 13:10:29,483 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:22: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion(duck_array_module.__version__)
+
+2023-04-10 13:10:30,629 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:37: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion("0.0.0")
+
+2023-04-10 13:10:30,638 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-10 13:10:30,663 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/npcompat.py:82: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(np.__version__) >= "1.20.0":
+
+2023-04-10 13:10:30,738 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pdcompat.py:45: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(pd.__version__) < "0.25.0":
+
+2023-04-10 13:10:31,203 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-10 13:10:35,716 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/plotly/graph_objects/__init__.py:288: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(ipywidgets.__version__) >= LooseVersion("7.0.0"):
+
+2023-04-10 13:10:35,882 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2023-04-10 14:41:27,889 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:41:27,904 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/kedro/framework/project/__init__.py:343: UserWarning: An error occurred while importing the 'sg_api.pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "/Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/kedro/framework/project/__init__.py", line 340, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "/Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Elena_Sidorova/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Basics/sg-api/src/sg_api/pipeline.py", line 36, in <module>
+    from sa.nodes.temperature_nodes import avg_temp_by_hour, get_temp_data, choose_station
+ModuleNotFoundError: No module named 'sa'
+
+  warnings.warn(
+
+2023-04-10 14:42:10,183 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:42:49,209 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:43:20,515 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:43:59,539 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:44:52,515 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:45:53,962 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:46:25,265 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:46:47,212 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:47:51,658 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:49:49,949 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:50:51,538 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:51:52,167 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:52:21,931 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:56:42,627 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:56:42,653 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/kedro/framework/project/__init__.py:343: UserWarning: An error occurred while importing the 'sg_api.pipeline' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "/Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/kedro/framework/project/__init__.py", line 340, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "/Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Elena_Sidorova/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Basics/sg-api/src/sg_api/pipeline.py", line 36, in <module>
+    from sa.nodes.temperature_nodes import get_temp_data, choose_station
+ModuleNotFoundError: No module named 'sa'
+
+  warnings.warn(
+
+2023-04-10 14:57:44,897 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:58:21,325 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:58:35,200 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 14:58:50,511 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:03:15,973 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:03:28,314 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:03:42,578 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:04:41,102 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:04:52,707 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:05:09,563 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-10 15:05:10,437 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-10 15:05:10,443 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-10 15:05:11,711 - kedro.pipeline.node - INFO - Running node: get_temp_data(None) -> [raw_temp]
+2023-04-10 15:05:25,631 - kedro.io.data_catalog - INFO - Saving data to 'raw_temp' (MemoryDataSet)...
+2023-04-10 15:05:25,694 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-10 15:05:25,696 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (MemoryDataSet)...
+2023-04-10 15:05:25,746 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-10 15:05:25,747 - kedro.pipeline.node - INFO - Running node: choose_station([raw_temp,params:station_id]) -> [temperature]
+2023-04-10 15:05:25,751 - kedro.io.data_catalog - INFO - Saving data to 'temperature' (MemoryDataSet)...
+2023-04-10 15:05:25,754 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-04-10 15:05:25,755 - kedro.io.data_catalog - INFO - Loading data from 'temperature' (MemoryDataSet)...
+2023-04-10 15:05:25,756 - kedro.pipeline.node - INFO - Running node: <lambda>([temperature]) -> [temp_plot]
+2023-04-10 15:05:26,027 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-10 15:05:26,194 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-04-10 15:05:26,195 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:22:46,900 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:22:49,931 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:22:49,939 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:22:51,264 - kedro.pipeline.node - INFO - Running node: get_temp_data(None) -> [raw_temp]
+2023-04-11 11:23:03,108 - kedro.io.data_catalog - INFO - Saving data to 'raw_temp' (JSONDataSet)...
+2023-04-11 11:23:03,286 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2023-04-11 11:23:03,287 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (JSONDataSet)...
+2023-04-11 11:23:03,302 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-11 11:23:03,303 - kedro.pipeline.node - INFO - Running node: choose_station([raw_temp,params:station_id]) -> [station_temperature]
+2023-04-11 11:23:03,308 - kedro.io.data_catalog - INFO - Saving data to 'station_temperature' (CSVDataSet)...
+2023-04-11 11:23:03,321 - kedro.runner.sequential_runner - INFO - Completed 2 out of 2 tasks
+2023-04-11 11:23:03,322 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:23:37,674 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:23:38,280 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:23:38,283 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:23:38,551 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:23:38,557 - kedro.pipeline.node - INFO - Running node: <lambda>([station_temperature]) -> [temp_plot]
+2023-04-11 11:23:38,738 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:23:38,911 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-04-11 11:23:38,912 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:25:01,646 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:25:01,651 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:25:02,276 - kedro.ipython - INFO - Kedro project sg_api
+2023-04-11 11:25:02,278 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-04-11 11:25:07,000 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:22: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion(duck_array_module.__version__)
+
+2023-04-11 11:25:08,243 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:37: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion("0.0.0")
+
+2023-04-11 11:25:08,246 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:25:08,287 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/npcompat.py:82: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(np.__version__) >= "1.20.0":
+
+2023-04-11 11:25:08,372 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pdcompat.py:45: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(pd.__version__) < "0.25.0":
+
+2023-04-11 11:25:12,140 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/plotly/graph_objects/__init__.py:288: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(ipywidgets.__version__) >= LooseVersion("7.0.0"):
+
+2023-04-11 11:25:12,200 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2023-04-11 11:25:24,208 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:26:57,942 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:30:46,645 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:30:49,553 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:30:49,558 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:30:50,624 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:30:50,634 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:30:50,881 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:30:51,049 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-04-11 11:30:51,050 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:31:47,839 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:31:48,640 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:31:48,643 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:31:49,010 - kedro.pipeline.node - INFO - Running node: get_temp_data(None) -> [raw_temp]
+2023-04-11 11:32:00,809 - kedro.io.data_catalog - INFO - Saving data to 'raw_temp' (JSONDataSet)...
+2023-04-11 11:32:00,995 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-11 11:32:00,996 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (JSONDataSet)...
+2023-04-11 11:32:01,011 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-11 11:32:01,012 - kedro.pipeline.node - INFO - Running node: choose_station([raw_temp,params:station_id]) -> [station_temperature]
+2023-04-11 11:32:01,013 - kedro.pipeline.node - ERROR - Node 'choose_station([raw_temp,params:station_id]) -> [station_temperature]' failed with error: 
+local variable 'temperature' referenced before assignment
+2023-04-11 11:32:01,015 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "get_temp_data(None) -> [raw_temp]"
+2023-04-11 11:33:47,095 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:33:59,518 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (JSONDataSet)...
+2023-04-11 11:34:24,151 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:34:24,681 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:34:24,683 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:34:24,929 - kedro.pipeline.node - INFO - Running node: get_temp_data(None) -> [raw_temp]
+2023-04-11 11:34:36,963 - kedro.io.data_catalog - INFO - Saving data to 'raw_temp' (JSONDataSet)...
+2023-04-11 11:34:37,141 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-11 11:34:37,142 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (JSONDataSet)...
+2023-04-11 11:34:37,152 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-11 11:34:37,153 - kedro.pipeline.node - INFO - Running node: choose_station([raw_temp,params:station_id]) -> [station_temperature]
+2023-04-11 11:34:37,157 - kedro.io.data_catalog - INFO - Saving data to 'station_temperature' (CSVDataSet)...
+2023-04-11 11:34:37,167 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-04-11 11:34:37,168 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:34:37,171 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:34:37,365 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:34:37,473 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-04-11 11:34:37,474 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:39:04,999 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:39:05,700 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:39:05,702 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:39:05,995 - kedro.pipeline.node - INFO - Running node: get_temp_data(None) -> [raw_temp]
+2023-04-11 11:39:17,935 - kedro.io.data_catalog - INFO - Saving data to 'raw_temp' (JSONDataSet)...
+2023-04-11 11:39:18,118 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-11 11:39:18,120 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (JSONDataSet)...
+2023-04-11 11:39:18,130 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-11 11:39:18,131 - kedro.pipeline.node - INFO - Running node: choose_station([raw_temp,params:station_id]) -> [station_temperature]
+2023-04-11 11:39:18,135 - kedro.io.data_catalog - INFO - Saving data to 'station_temperature' (CSVDataSet)...
+2023-04-11 11:39:18,141 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-04-11 11:39:18,142 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:39:18,148 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:39:18,321 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:39:18,434 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-04-11 11:39:18,435 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:39:58,870 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:39:59,457 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:39:59,459 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:39:59,715 - kedro.pipeline.node - INFO - Running node: get_temp_data(None) -> [raw_temp]
+2023-04-11 11:40:12,943 - kedro.io.data_catalog - INFO - Saving data to 'raw_temp' (JSONDataSet)...
+2023-04-11 11:40:13,133 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-11 11:40:13,135 - kedro.io.data_catalog - INFO - Loading data from 'raw_temp' (JSONDataSet)...
+2023-04-11 11:40:13,147 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-11 11:40:13,148 - kedro.pipeline.node - INFO - Running node: choose_station([raw_temp,params:station_id]) -> [station_temperature]
+2023-04-11 11:40:13,153 - kedro.io.data_catalog - INFO - Saving data to 'station_temperature' (CSVDataSet)...
+2023-04-11 11:40:13,160 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-04-11 11:40:13,161 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:40:13,164 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:40:13,353 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:40:13,464 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-04-11 11:40:13,465 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:40:42,914 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:40:43,441 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:40:43,443 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:40:43,718 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:40:43,723 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:40:43,866 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:40:43,982 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-04-11 11:40:43,983 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:41:19,474 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:41:20,032 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:41:20,034 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:41:20,266 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:41:20,271 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:41:20,397 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:41:20,505 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-04-11 11:41:20,506 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 11:42:21,966 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 11:42:22,583 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 11:42:22,585 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 11:42:22,857 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 11:42:22,862 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 11:42:23,007 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 11:42:23,116 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-04-11 11:42:23,117 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-11 12:53:47,106 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:53:57,334 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:54:34,322 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:55:25,327 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:55:37,479 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:55:38,555 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 12:55:38,561 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 12:56:33,452 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:56:33,899 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 12:56:33,901 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 12:58:27,066 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:58:28,407 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 12:58:28,412 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 12:58:46,882 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 12:58:47,378 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 12:58:47,381 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 13:09:37,677 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 13:09:38,246 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 13:09:38,249 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:41:44,821 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:41:47,537 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 14:41:47,547 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:48:22,514 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:48:24,115 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 14:48:24,120 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:49:33,006 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:49:33,549 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 14:49:33,555 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:50:48,375 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:50:48,897 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 14:50:48,899 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:56:04,872 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:56:34,910 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:56:35,503 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 14:56:35,506 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:56:35,818 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 14:56:35,832 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 14:56:36,085 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 14:56:36,237 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 14:56:36,238 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 14:56:36,239 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 14:56:36,239 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 14:56:36,243 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 14:56:36,244 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 14:56:36,244 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 14:56:36,245 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 14:56:50,296 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 14:56:50,307 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 14:59:16,002 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 14:59:16,941 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 14:59:16,944 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 14:59:17,488 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 14:59:17,494 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 14:59:17,693 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 14:59:17,823 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 14:59:17,824 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 14:59:17,825 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 14:59:17,827 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 14:59:17,828 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 14:59:17,829 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 14:59:17,830 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 14:59:17,830 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 14:59:29,745 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 14:59:29,751 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:05:30,437 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:05:32,382 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:05:32,388 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:05:33,096 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:05:33,103 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:05:33,298 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:05:33,436 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:05:33,438 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:05:33,438 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:05:33,439 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:05:33,441 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:05:33,441 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:05:33,442 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:05:33,443 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:05:46,388 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:05:46,403 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:07:28,147 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:07:28,767 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:07:28,769 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:07:29,120 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:07:29,125 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:07:29,299 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:07:29,421 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:07:29,422 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:07:29,423 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:07:29,424 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:07:29,425 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:07:29,426 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:07:29,427 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:07:29,428 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:07:42,218 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:07:42,223 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:14:53,259 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:14:54,176 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:14:54,178 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:14:54,588 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:14:54,594 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:14:54,811 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:14:54,936 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:14:54,937 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:14:54,938 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:14:54,939 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:14:54,940 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:14:54,941 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:14:54,942 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:14:54,943 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:15:09,090 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:15:09,095 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:17:39,006 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:17:41,680 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:17:41,690 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:17:42,699 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:17:42,705 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:17:42,998 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:17:43,173 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:17:43,174 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:17:43,175 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:17:43,176 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:17:43,177 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:17:43,178 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:17:43,179 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:17:43,180 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:17:56,254 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:17:56,264 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:29:43,305 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:29:44,408 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:29:44,411 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:29:44,815 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:29:44,821 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:29:45,034 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:29:45,155 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:29:45,156 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:29:45,157 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:29:45,158 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:29:45,160 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:29:45,161 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:29:45,161 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:29:45,162 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:29:58,517 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:29:58,524 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:34:12,961 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:34:16,327 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:34:16,383 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:34:17,420 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:34:17,431 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:34:17,742 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:34:17,958 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:34:17,959 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:34:17,960 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:34:17,961 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:34:17,963 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:34:17,967 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:34:17,968 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:34:17,969 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:34:31,110 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:34:31,127 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:44:59,658 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:45:00,524 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:45:00,527 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:45:01,110 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:45:01,115 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:45:01,302 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:45:01,418 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:45:01,420 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:45:01,421 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:45:01,421 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:45:01,423 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:45:01,424 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:45:01,424 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:45:01,425 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:45:16,763 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:45:16,768 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:46:44,012 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:46:46,783 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:46:46,787 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:46:47,644 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:46:47,655 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:46:47,965 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:46:48,155 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:46:48,156 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:46:48,157 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:46:48,158 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:46:48,159 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:46:48,160 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:46:48,161 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:46:48,161 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:47:01,865 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:47:01,876 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:47:40,096 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:47:41,102 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:47:41,105 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:47:41,483 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:47:41,490 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:47:41,688 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:47:41,814 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:47:41,816 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:47:41,816 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:47:41,817 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:47:41,819 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:47:41,820 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:47:41,821 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:47:41,821 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:47:41,894 - parallel_get_temp_data - ERROR - Failed Download HTTPSConnectionPool(host='api.data.gov.sg', port=443): Max retries exceeded with url: /v1/environment/air-temperature?date=2022-02-02 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe282bb4880>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-11 15:47:53,957 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:47:53,961 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:50:17,384 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:50:18,009 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:50:18,011 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:50:18,316 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:50:18,322 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:50:18,511 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:50:18,632 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:50:18,633 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:50:18,634 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:50:18,635 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:50:18,637 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:50:18,638 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:50:18,639 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:50:18,640 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 15:50:32,308 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:50:32,328 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:53:21,150 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:53:32,382 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:53:33,300 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:53:33,302 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:54:19,319 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:54:20,150 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:54:20,153 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:54:20,430 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:54:20,435 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:54:20,594 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:54:20,712 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:54:20,713 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:54:20,714 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:54:20,714 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:54:20,716 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:54:20,717 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:54:20,718 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:54:20,719 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-11 15:54:20,720 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 15:57:35,597 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 15:57:36,492 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 15:57:36,495 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 15:57:36,878 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 15:57:36,883 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 15:57:37,085 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 15:57:37,211 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 15:57:37,213 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 15:57:37,214 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 15:57:37,214 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 15:57:37,216 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:57:37,217 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 15:57:37,218 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 15:57:37,219 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-11 15:57:37,221 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:02:05,811 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:02:08,223 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:02:08,249 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:02:09,809 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:02:09,827 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:02:10,093 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:02:10,287 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:02:10,288 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:02:10,289 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:02:10,290 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:02:10,292 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:02:10,293 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:02:10,294 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:02:10,295 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-11 16:02:10,296 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:03:01,884 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:03:02,749 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:03:02,752 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:03:03,083 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:03:03,091 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:03:03,280 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:03:03,400 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:03:03,401 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:03:03,402 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:03:03,402 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:03:03,404 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:03:03,405 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:03:03,406 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:03:03,407 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:03:17,330 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node function returned 2 output(s), whereas the node definition contains 1 output(s).
+2023-04-11 16:03:17,345 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:03:34,421 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:03:35,294 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:03:35,297 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:03:35,661 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:03:35,667 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:03:35,843 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:03:35,962 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:03:35,963 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:03:35,964 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:03:35,965 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:03:35,966 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:03:35,967 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:03:35,968 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:03:35,969 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:03:47,491 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:03:47,495 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:03:59,903 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:04:00,984 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:04:00,987 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:04:01,399 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:04:01,405 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:04:01,600 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:04:01,734 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:04:01,735 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:04:01,736 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:04:01,737 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:04:01,738 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:04:01,739 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:04:01,740 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:04:01,741 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:04:13,069 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:04:13,075 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:16:52,906 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:16:56,002 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:16:56,010 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:16:57,230 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:16:57,241 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:16:57,567 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:16:57,733 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:16:57,734 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:16:57,735 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:16:57,735 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:16:57,737 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:16:57,738 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:16:57,738 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:16:57,739 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:17:12,283 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:17:12,298 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:19:04,825 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:19:05,634 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:19:05,636 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:19:05,978 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:19:05,989 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:19:06,169 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:19:06,299 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:19:06,300 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:19:06,301 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:19:06,302 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:19:06,303 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:19:06,304 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:19:06,305 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:19:06,306 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:19:25,251 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:19:25,256 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:20:15,407 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:20:16,376 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:20:16,379 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:20:16,818 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:20:16,824 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:20:17,025 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:20:17,158 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:20:17,159 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:20:17,160 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:20:17,162 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:20:17,163 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:20:17,164 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:20:17,165 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:20:17,166 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:20:32,602 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:20:32,608 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:21:09,899 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:21:10,679 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:21:10,681 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:21:10,965 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:21:10,970 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:21:11,150 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:21:11,268 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:21:11,269 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:21:11,270 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:21:11,270 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:21:11,272 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:21:11,273 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:21:11,273 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:21:11,274 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:21:24,138 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:21:24,145 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:27:08,574 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:27:09,341 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:27:09,344 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:27:09,723 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:27:09,729 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:27:09,902 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:27:10,031 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:27:10,032 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:27:10,033 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:27:10,034 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:27:10,035 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:27:10,036 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:27:10,037 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:27:10,038 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:27:24,973 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:27:24,979 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:35:05,123 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:35:07,754 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:35:07,761 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:35:08,922 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:35:08,923 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:35:08,925 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:35:08,927 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:35:08,929 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-11 16:35:08,931 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:35:08,932 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:35:22,184 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:35:22,198 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:36:29,424 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:36:30,180 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:36:30,182 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:36:30,519 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:36:30,531 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:36:30,816 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:36:30,997 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:36:30,999 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:36:31,000 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:36:31,000 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:36:31,002 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:36:31,003 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:36:31,004 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:36:31,005 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:36:44,058 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:36:44,063 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-11 16:39:16,631 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-11 16:39:17,396 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-11 16:39:17,398 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-11 16:39:17,712 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-11 16:39:17,717 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-11 16:39:17,897 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-11 16:39:18,016 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-04-11 16:39:18,017 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-11 16:39:18,018 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-11 16:39:18,019 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-11 16:39:18,021 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:39:18,022 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-04-11 16:39:18,022 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-11 16:39:18,023 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-11 16:39:30,569 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:39:30,574 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:43:07,719 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:43:10,520 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:43:10,531 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:43:11,376 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:43:11,378 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:43:11,379 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:43:11,381 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:43:11,383 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:43:11,384 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:43:11,385 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:43:26,618 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:43:26,631 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:45:27,436 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:45:29,348 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:45:29,353 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:45:30,001 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:45:30,002 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:45:30,003 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:45:30,005 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:45:30,007 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:45:30,008 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:45:30,009 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_data_dict]
+2023-04-12 10:45:44,240 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_data_dict]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_data_dict].
+The node definition contains a list of outputs ['downloaded_data_dict'], whereas the node function returned a 'dict'.
+2023-04-12 10:45:44,250 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:46:38,330 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:46:38,851 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:46:38,853 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:47:18,038 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:47:18,587 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:47:18,589 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:47:18,830 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:47:18,831 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:47:18,832 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:47:18,833 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:47:18,835 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:47:18,836 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:47:18,837 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:47:44,753 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:47:44,758 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:49:51,998 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:50:10,710 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:50:11,280 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:50:11,282 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:50:11,577 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:50:11,578 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:50:11,579 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:50:11,580 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:50:11,582 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:50:11,583 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:50:11,584 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:50:22,913 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:50:22,923 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:52:16,622 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:52:40,635 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:52:41,114 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:52:41,116 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:52:41,423 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:52:41,424 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:52:41,425 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:52:41,427 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:52:41,429 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:52:41,430 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:52:41,431 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:52:55,553 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:52:55,558 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:53:13,819 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:53:14,324 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:53:14,326 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:53:14,606 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:53:14,607 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:53:14,608 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:53:14,610 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:53:14,611 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:53:14,612 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:53:14,613 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:53:26,773 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:53:26,778 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:53:43,066 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:53:43,694 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:53:43,696 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:53:43,951 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:53:43,953 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:53:43,954 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:53:43,955 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:53:43,957 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:53:43,958 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:53:43,959 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:53:54,421 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'filter'.
+2023-04-12 10:53:54,425 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:54:02,064 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:54:02,599 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:54:02,601 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:54:02,898 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:54:02,899 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:54:02,900 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:54:02,902 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:54:02,904 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:54:02,904 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:54:02,905 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:54:22,082 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'filter'.
+2023-04-12 10:54:22,086 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:54:42,802 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:54:43,357 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:54:43,359 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:54:43,609 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:54:43,610 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:54:43,611 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:54:43,612 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:54:43,614 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:54:43,615 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:54:43,615 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:54:57,620 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node function returned 7 output(s), whereas the node definition contains 1 output(s).
+2023-04-12 10:54:57,625 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:55:19,729 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:55:20,257 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:55:20,260 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:55:20,495 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:55:20,496 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:55:20,497 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:55:20,499 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:55:20,500 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:55:20,501 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:55:20,502 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:55:35,182 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:55:35,191 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:56:41,181 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:57:09,428 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:57:37,362 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:57:37,883 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:57:37,885 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:57:38,153 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:57:38,154 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:57:38,155 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:57:38,157 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:57:38,158 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:57:38,159 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:57:38,160 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:57:50,487 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:57:50,493 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 10:58:04,335 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 10:58:04,875 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 10:58:04,877 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 10:58:05,167 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 10:58:05,168 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 10:58:05,169 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 10:58:05,170 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:58:05,172 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 10:58:05,172 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 10:58:05,173 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 10:58:21,283 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:58:21,287 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:01:14,378 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:01:17,163 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:01:17,175 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:01:18,393 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:01:18,395 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:01:18,396 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:01:18,397 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:01:18,399 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:01:18,400 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:01:18,401 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:01:31,345 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:01:31,351 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:03:46,095 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:03:59,342 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:04:08,980 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:04:09,624 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:04:09,627 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:04:10,020 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:04:10,021 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:04:10,022 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:04:10,024 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:04:10,026 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:04:10,027 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:04:10,028 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:04:22,142 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:04:22,147 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:04:37,190 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:04:37,737 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:04:37,740 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:04:38,017 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:04:38,019 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:04:38,020 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:04:38,021 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:04:38,023 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:04:38,024 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:04:38,025 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:04:52,144 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:04:52,148 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:24:12,931 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:24:31,157 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:24:38,452 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:25:03,340 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:25:04,481 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:25:04,487 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:25:05,525 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:25:05,526 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:25:05,527 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:25:05,528 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:25:05,530 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:25:05,531 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:25:05,532 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-12 11:25:05,534 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:26:50,019 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:27:10,597 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:27:29,680 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:27:53,793 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:28:10,293 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:28:30,054 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:28:58,597 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:29:01,108 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:29:01,121 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:29:02,181 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:29:02,182 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:29:02,183 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:29:02,185 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:29:02,187 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:29:02,188 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:29:02,189 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:29:02,223 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+name 'already_downloaded_dates' is not defined
+2023-04-12 11:29:02,237 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:29:28,049 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:29:28,559 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:29:28,561 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:29:28,834 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:29:28,835 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:29:28,836 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:29:28,837 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:29:28,839 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:29:28,840 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:29:28,840 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:29:44,603 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:29:44,614 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:36:35,198 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:36:47,588 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:36:48,211 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:36:48,213 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:36:48,568 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:36:48,569 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:36:48,570 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:36:48,572 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:36:48,574 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:36:48,575 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:36:48,576 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:37:27,109 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node function returned 2 output(s), whereas the node definition contains 1 output(s).
+2023-04-12 11:37:27,115 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:38:37,351 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:38:37,947 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:38:37,949 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:38:38,227 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:38:38,229 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:38:38,230 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:38:38,231 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:38:38,233 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:38:38,234 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:38:38,235 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:38:50,204 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:38:50,209 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:39:44,977 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:39:55,224 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:40:19,321 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:40:58,918 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:40:59,495 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:40:59,497 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:40:59,786 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:40:59,787 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:40:59,788 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:40:59,790 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:40:59,808 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-04-12 11:42:14,093 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:42:14,673 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:42:14,675 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:42:14,964 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:42:14,965 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:42:14,966 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:42:14,967 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:42:14,970 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-04-12 11:44:00,572 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:44:02,999 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:44:03,012 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:44:04,074 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:44:04,075 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:44:04,077 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:44:04,079 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:44:04,088 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-04-12 11:48:33,769 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:48:42,771 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:48:43,276 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:48:43,278 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:48:43,540 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:48:43,541 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:48:43,542 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:48:43,544 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:48:43,555 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-04-12 11:49:23,635 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:49:24,286 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:49:24,288 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:49:24,535 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:49:24,536 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:49:24,537 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:49:24,538 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:49:24,547 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-04-12 11:50:18,325 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:50:36,225 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:50:36,827 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:50:36,830 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:50:37,091 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:50:37,092 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:50:37,093 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:50:37,094 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:50:37,096 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:50:37,097 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:50:37,098 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:50:50,816 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:50:50,830 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-12 11:51:14,516 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:51:23,712 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:51:24,249 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:51:24,251 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:51:24,523 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-12 11:51:24,525 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-12 11:51:24,526 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-12 11:51:24,527 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:51:24,529 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-12 11:51:24,530 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-12 11:51:24,531 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]
+2023-04-12 11:51:39,036 - kedro.io.data_catalog - INFO - Saving data to 'downloaded_dates' (MemoryDataSet)...
+2023-04-12 11:51:39,413 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-04-12 11:51:39,414 - kedro.io.data_catalog - INFO - Loading data from 'downloaded_dates' (MemoryDataSet)...
+2023-04-12 11:51:39,856 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-12 11:51:39,858 - kedro.pipeline.node - INFO - Running node: parallel_choose_station([downloaded_dates,params:station_id]) -> [downloaded_station_data]
+2023-04-12 11:51:39,880 - kedro.io.data_catalog - INFO - Saving data to 'downloaded_station_data' (PartitionedDataSet)...
+2023-04-12 11:51:39,924 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-04-12 11:51:39,925 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-12 11:59:53,226 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-12 11:59:57,057 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-12 11:59:57,070 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-12 11:59:58,916 - kedro.io.data_catalog - INFO - Loading data from 'station_temperature' (CSVDataSet)...
+2023-04-12 11:59:58,952 - kedro.pipeline.node - INFO - Running node: avg_temp_by_hour([station_temperature]) -> [temp_plot]
+2023-04-12 11:59:59,228 - kedro.io.data_catalog - INFO - Saving data to 'temp_plot' (MatplotlibWriter)...
+2023-04-12 11:59:59,384 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-04-12 11:59:59,385 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-14 11:16:13,652 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:16:17,597 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 11:16:17,622 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 11:16:19,367 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-14 11:16:19,373 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-14 11:16:19,377 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-14 11:16:19,380 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:16:19,382 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-14 11:16:19,383 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:16:19,385 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-14 11:16:19,387 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-14 11:19:42,199 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:19:44,944 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 11:19:44,950 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 11:19:45,611 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-14 11:19:45,613 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-14 11:19:45,614 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-14 11:19:45,616 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:19:45,618 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-14 11:19:45,619 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:19:45,620 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-14 11:19:45,622 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-14 11:20:58,642 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:20:59,218 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 11:20:59,220 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 11:20:59,491 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-14 11:20:59,492 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-14 11:20:59,493 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-14 11:20:59,495 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:20:59,497 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-14 11:20:59,497 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:20:59,498 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-14 11:20:59,500 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-14 11:21:39,896 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:22:00,489 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:22:01,102 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 11:22:01,105 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 11:22:01,443 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-14 11:22:01,444 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-14 11:22:01,445 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-14 11:22:01,447 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:22:01,448 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-14 11:22:01,449 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:22:01,450 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-14 11:22:01,453 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-14 11:23:17,347 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:24:01,922 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:24:02,527 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 11:24:02,529 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 11:24:02,801 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-14 11:24:02,802 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-14 11:24:02,803 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-14 11:24:02,805 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:24:02,806 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-14 11:24:02,807 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:24:02,808 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-14 11:24:02,810 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes ""
+2023-04-14 11:25:16,368 - kedro.framework.session.session - INFO - Kedro project sg-api
+2023-04-14 11:25:16,945 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 11:25:16,948 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 11:25:17,207 - kedro.io.data_catalog - INFO - Loading data from 'params:start_date' (MemoryDataSet)...
+2023-04-14 11:25:17,208 - kedro.io.data_catalog - INFO - Loading data from 'params:end_date' (MemoryDataSet)...
+2023-04-14 11:25:17,209 - kedro.pipeline.node - INFO - Running node: generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]
+2023-04-14 11:25:17,211 - kedro.io.data_catalog - INFO - Saving data to 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:25:17,212 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-04-14 11:25:17,213 - kedro.io.data_catalog - INFO - Loading data from 'dates_to_download' (MemoryDataSet)...
+2023-04-14 11:25:17,214 - kedro.io.data_catalog - INFO - Loading data from 'already_downloaded_dates' (JSONDataSet)...
+2023-04-14 11:25:17,217 - kedro.pipeline.node - INFO - Running node: parallel_get_temp_data([dates_to_download,already_downloaded_dates]) -> [downloaded_dates,already_downloaded_dates!]
+2023-04-14 11:25:28,685 - kedro.io.data_catalog - INFO - Saving data to 'downloaded_dates' (MemoryDataSet)...
+2023-04-14 11:25:28,998 - kedro.io.data_catalog - INFO - Saving data to 'already_downloaded_dates!' (JSONDataSet)...
+2023-04-14 11:25:29,003 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-04-14 11:25:29,004 - kedro.io.data_catalog - INFO - Loading data from 'downloaded_dates' (MemoryDataSet)...
+2023-04-14 11:25:29,337 - kedro.io.data_catalog - INFO - Loading data from 'params:station_id' (MemoryDataSet)...
+2023-04-14 11:25:29,338 - kedro.pipeline.node - INFO - Running node: parallel_choose_station([downloaded_dates,params:station_id]) -> [downloaded_station_data]
+2023-04-14 11:25:29,357 - kedro.io.data_catalog - INFO - Saving data to 'downloaded_station_data' (PartitionedDataSet)...
+2023-04-14 11:25:29,447 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-04-14 11:25:29,448 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-04-14 13:24:48,762 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 13:24:48,788 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 13:24:53,073 - kedro.ipython - INFO - Kedro project sg_api
+2023-04-14 13:24:53,076 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-04-14 13:24:58,865 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:22: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion(duck_array_module.__version__)
+
+2023-04-14 13:24:59,544 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:37: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion("0.0.0")
+
+2023-04-14 13:24:59,546 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 13:24:59,564 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/npcompat.py:82: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(np.__version__) >= "1.20.0":
+
+2023-04-14 13:24:59,629 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pdcompat.py:45: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(pd.__version__) < "0.25.0":
+
+2023-04-14 13:25:01,888 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/plotly/graph_objects/__init__.py:288: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(ipywidgets.__version__) >= LooseVersion("7.0.0"):
+
+2023-04-14 13:25:01,941 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2023-04-14 13:32:11,367 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/matplotlib/__init__.py:152: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(module.__version__) < minver:
+
+2023-04-14 13:32:11,375 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 13:32:14,771 - kedro.ipython - INFO - Kedro project sg_api
+2023-04-14 13:32:14,785 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-04-14 13:32:22,223 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:22: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion(duck_array_module.__version__)
+
+2023-04-14 13:32:23,166 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pycompat.py:37: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  duck_array_version = LooseVersion("0.0.0")
+
+2023-04-14 13:32:23,169 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/setuptools/_distutils/version.py:345: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-04-14 13:32:23,192 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/npcompat.py:82: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(np.__version__) >= "1.20.0":
+
+2023-04-14 13:32:23,262 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/xarray/core/pdcompat.py:45: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(pd.__version__) < "0.25.0":
+
+2023-04-14 13:32:25,917 - py.warnings - WARNING - /Users/Elena_Sidorova/opt/anaconda3/lib/python3.9/site-packages/plotly/graph_objects/__init__.py:288: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(ipywidgets.__version__) >= LooseVersion("7.0.0"):
+
+2023-04-14 13:32:25,977 - kedro.ipython - INFO - Registered line magic 'run_viz'

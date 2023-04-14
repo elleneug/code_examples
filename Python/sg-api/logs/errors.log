@@ -1,0 +1,146 @@
+2023-04-11 11:32:01,013 - kedro.pipeline.node - ERROR - Node 'choose_station([raw_temp,params:station_id]) -> [station_temperature]' failed with error: 
+local variable 'temperature' referenced before assignment
+2023-04-11 14:56:50,296 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 14:59:29,745 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:05:46,388 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:07:42,218 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:15:09,090 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:17:56,254 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:29:58,517 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:34:31,110 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:45:16,763 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:47:01,865 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:47:41,894 - parallel_get_temp_data - ERROR - Failed Download HTTPSConnectionPool(host='api.data.gov.sg', port=443): Max retries exceeded with url: /v1/environment/air-temperature?date=2022-02-02 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe282bb4880>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-04-11 15:47:53,957 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 15:50:32,308 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:03:17,330 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node function returned 2 output(s), whereas the node definition contains 1 output(s).
+2023-04-11 16:03:47,491 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:04:13,069 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:17:12,283 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:19:25,251 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:20:32,602 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:21:24,138 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:27:24,973 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:35:22,184 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:36:44,058 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-11 16:39:30,569 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:43:26,618 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:45:44,240 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_data_dict]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_data_dict].
+The node definition contains a list of outputs ['downloaded_data_dict'], whereas the node function returned a 'dict'.
+2023-04-12 10:47:44,753 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:50:22,913 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:52:55,553 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:53:26,773 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:53:54,421 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'filter'.
+2023-04-12 10:54:22,082 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'filter'.
+2023-04-12 10:54:57,620 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node function returned 7 output(s), whereas the node definition contains 1 output(s).
+2023-04-12 10:55:35,182 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:57:50,487 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 10:58:21,283 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:01:31,345 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:04:22,142 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:04:52,144 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:29:02,223 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+name 'already_downloaded_dates' is not defined
+2023-04-12 11:29:44,603 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:37:27,109 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node function returned 2 output(s), whereas the node definition contains 1 output(s).
+2023-04-12 11:38:50,204 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
+2023-04-12 11:40:59,790 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:42:14,967 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:44:04,079 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:48:43,544 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:49:24,538 - kedro.pipeline.node - ERROR - Node 'generate_date_range([params:start_date,params:end_date]) -> [dates_to_download]' failed with error: 
+Failed to save outputs of node generate_date_range([params:start_date,params:end_date]) -> [dates_to_download].
+The node definition contains a list of outputs ['dates_to_download'], whereas the node function returned a 'dict'.
+2023-04-12 11:50:50,816 - kedro.pipeline.node - ERROR - Node 'parallel_get_temp_data([dates_to_download]) -> [downloaded_dates]' failed with error: 
+Failed to save outputs of node parallel_get_temp_data([dates_to_download]) -> [downloaded_dates].
+The node definition contains a list of outputs ['downloaded_dates'], whereas the node function returned a 'dict'.
