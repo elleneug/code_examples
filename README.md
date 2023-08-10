@@ -12,6 +12,8 @@ Here you'll find some examples of my projects that are sharable.
 
 **! Note - there are only projects that are possible to be shared**
 
+Other shared version of codes can be found here: https://github.com/elleneug/code_competitions
+
 ### 0. Fundametals
 Basic useful functions and tasks
 
