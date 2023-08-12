@@ -6,11 +6,10 @@ Preparation:
 Task:
 Write a map-reduce application that uses the copied data on Object Storage and calculates a report for each month of the year 2020 in the following format:
 
-----------------------------------------------
-| Month	| Payment type	| Tips average amount |
-|------------------------------------------|
-|2020-01	| Credit card	| 999.99 |
------------------------------------------------
+
+| Month	  | Payment type	| Tips average amount |
+|-----------------------------------------------|
+|2020-01	| Credit card	  | 999.99              |
 
 
 
