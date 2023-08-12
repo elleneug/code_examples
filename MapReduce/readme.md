@@ -11,9 +11,9 @@ Write a map-reduce application that uses the copied data on Object Storage and c
 |-----------------------------------------------|
 |2020-01	| Credit card	  | 999.99              |
 
-|  Month  | Payment type | Tips average amount | 
-| ------------- | ------------- |
-| 2020-01  | Credit card  | 999.99   | 
+|  Month        | Payment type  | Tips average amount | 
+| ------------- | ------------- | ------------------- |
+| 2020-01       | Credit card   | 999.99              | 
 
 
 Report Requirements:
