@@ -154,7 +154,7 @@ Also, the following attributes have been added in many marts:
 
 1. ## <a name="_toc144736921"></a>**Anchor Modeling**
 
-<img width="468" alt="image" src="https://github.com/elleneug/code_courses/assets/56693605/db6ec7bc-e842-4840-8e4d-1f66eb464c5d">
+<img width="468" alt="image" src="DWH/DWH_project-Anchor modeling.png">
 
 
 Design DWH according to Anchor Modeling:
