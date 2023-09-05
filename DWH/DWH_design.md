@@ -12,7 +12,8 @@ Sale of credit cards by the bank manager and the bank's client during meetings.
 # <a name="_toc144736918"></a>**Methodology-based design**
 
 1. ## <a name="_toc144736919"></a>**Dimensional Modeling**
-<img width="800" alt="image" src="https://github.com/elleneug/code_courses/assets/56693605/0dc0914d-8d10-4024-a211-3287aea8998f">
+![DWH_project-Anchor modeling](https://github.com/elleneug/code_courses/assets/56693605/05669f6a-02de-40ff-8724-332c2db318be)
+
 
 
 
@@ -131,7 +132,8 @@ Region description mart.
 
 1. ## <a name="_toc144736920"></a>**Data Vault**
 
-<img width="800" alt="image" src="https://github.com/elleneug/code_courses/assets/56693605/be30141e-30c6-4997-b38f-8210dcb05c9a">
+![DWH_project-Data Vault](https://github.com/elleneug/code_courses/assets/56693605/d98adca7-dfc1-4ccb-99db-a66a0ca26968)
+
 
 
 Description of key mart attributes is similar to part I.Dimensional Modeling.
