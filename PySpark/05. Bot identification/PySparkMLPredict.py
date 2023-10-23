@@ -1,9 +1,14 @@
 import argparse
-
+from pyspark.sql import DataFrame
 from pyspark.ml import PipelineModel
 from pyspark.sql import SparkSession
+from pyspark.ml.feature import VectorAssembler, StringIndexer
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 
 MODEL_PATH = 'spark_ml_model'
+
+
+
 
 
 def main(data_path, model_path, result_path):
@@ -15,7 +20,12 @@ def main(data_path, model_path, result_path):
     :param result_path: путь куда нужно сохранить результаты предсказаний ([session_id, prediction]).
     """
     spark = _spark_session()
-    #TODO Ваш код.
+    df = spark.read.parquet(data_path)
+    model = PipelineModel.load(model_path)
+    predictions = model.transform(df)
+    result_df = predictions.select("session_id", "prediction")
+    result_df.write.parquet(result_path)
+    return
 
 
 def _spark_session():
