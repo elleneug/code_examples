@@ -34,4 +34,4 @@ PySpark projects.
 
 [Dashboard with product metrics](http://redash.public.karpov.courses/public/dashboards/hQLfyffZcDMyC749IcpuAQW9DcMmvrhAAoDNls0B?org_slug=default)
 
-[Tableau Dashboard - Profitability Overview] (https://public.tableau.com/app/profile/elena.sidorova/viz/ExecutiveOverview_16977903909530/ExecutiveOverview)
+[Tableau Dashboard - Profitability Overview](https://public.tableau.com/app/profile/elena.sidorova/viz/ExecutiveOverview_16977903909530/ExecutiveOverview)
