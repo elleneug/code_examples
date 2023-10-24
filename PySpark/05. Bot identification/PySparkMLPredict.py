@@ -6,8 +6,19 @@ from pyspark.ml.feature import VectorAssembler, StringIndexer
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 
 MODEL_PATH = 'spark_ml_model'
+def vector_assembler() -> VectorAssembler:
+    #input_cols = [col for col in train_df.columns if col != 'is_credit_closed']
+    assembler = VectorAssembler(inputCols=['user_type_index', 'duration', 'platform_index', 'item_info_events',
+                                           'select_item_events', 'make_order_events', 'events_per_min'], outputCol="features")
+    return assembler
 
-
+def prepare_data(df: DataFrame, assembler) -> DataFrame:
+    user_type_index = StringIndexer(inputCol='user_type', outputCol="user_type_index")
+    platform_index = StringIndexer(inputCol='platform', outputCol="platform_index")
+    df = user_type_index.fit(df).transform(df)
+    df = platform_index.fit(df).transform(df)
+    df = assembler.transform(df)
+    return df
 
 
 
@@ -21,8 +32,10 @@ def main(data_path, model_path, result_path):
     """
     spark = _spark_session()
     df = spark.read.parquet(data_path)
+    assembler = vector_assembler()
+    df_pr = prepare_data(df, assembler)
     model = PipelineModel.load(model_path)
-    predictions = model.transform(df)
+    predictions = model.transform(df_pr)
     result_df = predictions.select("session_id", "prediction")
     result_df.write.parquet(result_path)
     return
