@@ -5,9 +5,9 @@ from pyspark.sql import SparkSession
 
 import mlflow
 
-os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'https://storage.yandexcloud.net'
-os.environ['AWS_ACCESS_KEY_ID'] = 'VsSLmhBg5or3QeP-bYwW'
-os.environ['AWS_SECRET_ACCESS_KEY'] = 'e61seRCXf_STt5CFDQ8yoRXHWWHam_D9_pqnHGDe'
+os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'https://url.net'
+os.environ['AWS_ACCESS_KEY_ID'] = 'key-id'
+os.environ['AWS_SECRET_ACCESS_KEY'] = 'access-key'
 
 
 schema = StructType([
