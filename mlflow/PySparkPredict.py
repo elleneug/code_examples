@@ -54,7 +54,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default='data.parquet', help='Please set datasets path.')
     parser.add_argument('--result', type=str, default='result', help='Please set result path.')
-    parser.add_argument('--model_uri', type=str, default='runs:/9bb835fcc8624002b6e443bb0f02a0dc/a-dudin-16', help='The URI of the model to load from MLflow.')
+    parser.add_argument('--model_uri', type=str, default='runs:/49349c2583f94de18093e90d3d6ea578/e-sidorova', help='The URI of the model to load from MLflow.')
     args = parser.parse_args()
     data = args.data
     result = args.result
