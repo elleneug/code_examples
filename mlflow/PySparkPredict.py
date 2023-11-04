@@ -5,21 +5,11 @@ from pyspark.sql import SparkSession
 
 import mlflow
 
-os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'https://url.net'
-os.environ['AWS_ACCESS_KEY_ID'] = 'key-id'
-os.environ['AWS_SECRET_ACCESS_KEY'] = 'access-key'
+os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'https://storage.yandexcloud.net'
+os.environ['AWS_ACCESS_KEY_ID'] = 'VsSLmhBg5or3QeP-bYwW'
+os.environ['AWS_SECRET_ACCESS_KEY'] = 'e61seRCXf_STt5CFDQ8yoRXHWWHam_D9_pqnHGDe'
 
 
-schema = StructType([
-    StructField("driver_id", StringType(), True),
-    StructField("age", IntegerType(), True),
-    StructField("sex", StringType(), True),
-    StructField("car_class", StringType(), True),
-    StructField("driving_experience", IntegerType(), True),
-    StructField("speeding_penalties", IntegerType(), True),
-    StructField("parking_penalties", IntegerType(), True),
-    StructField("total_car_accident", IntegerType(), True),
-])
 
 
 def process(spark, data_path, result, model_uri):
@@ -35,7 +25,7 @@ def process(spark, data_path, result, model_uri):
         os.makedirs(result)
 
     # Загрузить датасет
-    data_df = spark.read.schema(schema).parquet(data_path)
+    data_df = spark.read.parquet(data_path)
 
     # Загрузить модель из MLflow
     model = mlflow.spark.load_model(model_uri)
@@ -44,7 +34,7 @@ def process(spark, data_path, result, model_uri):
     predictions = model.transform(data_df).select("driver_id", "prediction")
 
     # Сохранить датасет с предсказаниями в указанный путь
-    predictions.write.parquet(os.path.join(result, "predictions.parquet"))
+    predictions.write.parquet(result)
 
 def main(data_path, result_path, model_uri):
     spark = _spark_session()
@@ -64,7 +54,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default='data.parquet', help='Please set datasets path.')
     parser.add_argument('--result', type=str, default='result', help='Please set result path.')
-    parser.add_argument('--model_uri', type=str, default='s3://kc-mlflow/341/b7bc411a8da04297864ffd3d800bb5f7/artifacts/e-sidorova/', help='The URI of the model to load from MLflow.')
+    parser.add_argument('--model_uri', type=str, default='runs:/9bb835fcc8624002b6e443bb0f02a0dc/a-dudin-16', help='The URI of the model to load from MLflow.')
     args = parser.parse_args()
     data = args.data
     result = args.result
