@@ -10,8 +10,6 @@ os.environ['AWS_ACCESS_KEY_ID'] = 'VsSLmhBg5or3QeP-bYwW'
 os.environ['AWS_SECRET_ACCESS_KEY'] = 'e61seRCXf_STt5CFDQ8yoRXHWWHam_D9_pqnHGDe'
 
 
-
-
 def process(spark, data_path, result, model_uri):
     """
     Основной процесс задачи.
@@ -20,9 +18,6 @@ def process(spark, data_path, result, model_uri):
     :param data_path: путь до датасета
     :param result: путь сохранения результата
     """
-
-    if not os.path.exists(result):
-        os.makedirs(result)
 
     # Загрузить датасет
     data_df = spark.read.parquet(data_path)
@@ -54,7 +49,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default='data.parquet', help='Please set datasets path.')
     parser.add_argument('--result', type=str, default='result', help='Please set result path.')
-    parser.add_argument('--model_uri', type=str, default='runs:/49349c2583f94de18093e90d3d6ea578/e-sidorova', help='The URI of the model to load from MLflow.')
+    parser.add_argument('--model_uri', type=str, default='s3://kc-mlflow/341/49349c2583f94de18093e90d3d6ea578/artifacts/e-sidorova', help='The URI of the model to load from MLflow.')
     args = parser.parse_args()
     data = args.data
     result = args.result
