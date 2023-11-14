@@ -21,44 +21,28 @@ def process(spark, data_path, report_path):
     """
     df = spark.read.parquet(data_path)
     
-    check_completeness = Check(spark, CheckLevel.Warning, "Data Quality Check")\
-        .isComplete("id")\
-        .isComplete("vendor_code")\
-        .isComplete("name")\
-        .isComplete("type")\
-        .isComplete("label")\
-        .isComplete("price")\
-        .isComplete("discount")\
-        .isComplete("available_count")\
-        .isComplete("preorder_count")
+    analyzer = AnalysisRunner(spark) \
+                    .onData(df) \
+                    .addAnalyzer(Size()) \
+                    .addAnalyzer(Completeness("id")) \
+                    .addAnalyzer(Completeness("vendor_code")) \
+                    .addAnalyzer(Completeness("name")) \
+                    .addAnalyzer(Completeness("type")) \
+                    .addAnalyzer(Completeness("label")) \
+                    .addAnalyzer(Completeness("price")) \
+                    .addAnalyzer(Completeness("discount")) \
+                    .addAnalyzer(Completeness("available_count")) \
+                    .addAnalyzer(Completeness("preorder_count")) \
+                    .addAnalyzer(Distinctness("id"))\
+                    .addAnalyzer(Compliance("discount less than 0", 'discount<0')) \
+                    .addAnalyzer(Compliance("discount more than 100", 'discount>100')) \
+                    .addAnalyzer(Compliance("available_count less than 0", 'available_count<0')) \
+                    .addAnalyzer(Compliance("preorder_count less than 0", 'preorder_count<0')) \
+                    .run()
+                    
+    analysisResult_df = AnalyzerContext.successMetricsAsDataFrame(spark, analyzer)
     
-    check_dataset = Check(spark, CheckLevel.Error, "Users Dataset Check")\
-            .isUnique("id")\
-            .hasSize(lambda x: x >= 100000)
-    
-    check_discount = Check(spark, CheckLevel.Warning, "Discount Check")\
-                .isNonNegative("discount")\
-                .hasMax("discount", lambda x: x <= 100)
-
-    check_orders = Check(spark, CheckLevel.Warning, "Discount Check")\
-                .isNonNegative("available_count")\
-                .isNonNegative("preorder_count")
-    
-    
-
-    check = Check(spark, CheckLevel.Warning, "Data Quality Check")
-    checkResult = VerificationSuite(spark) \
-            .onData(df) \
-            .addCheck(check_completeness) \
-            .addCheck(check_dataset) \
-            .addCheck(check_discount) \
-            .addCheck(check_orders) \
-            .run()
-    
-    checkResult_df = VerificationResult.checkResultsAsDataFrame(spark, checkResult)
-    
-    final_df = VerificationResult.successMetricsAsDataFrame(spark, checkResult)
-    final_df.write.mode("overwrite").parquet(report_path)
+    analysisResult_df.write.mode("overwrite").parquet(report_path)
        
     return
     
