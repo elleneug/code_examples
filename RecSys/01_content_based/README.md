@@ -8,8 +8,6 @@ Our task is to improve an algorithm that will determine the most relevant recomm
 
 In the `movies.parquet` file, we are provided with metadata about movies and TV series, including information about the title, poster, content type, description, genres, release date, and other characteristics.
 
-- **Link to the `movies.parquet` file**
-- **Link to the notebook for work**
 
 ### Fields
 
